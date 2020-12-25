@@ -8,7 +8,6 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './js/main.js',
-    vendor: './js/vendor.js',
   },
   devtool: isDev ? 'source-map' : false,
   output: {
