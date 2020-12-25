@@ -1,0 +1,30 @@
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+  margin-bottom: 37px;
+}
+
+.nav__logo {
+	margin-right: 50px;
+
+	p {
+		font-size: 28px;
+		line-height: 28px;
+    margin-bottom: -5px;
+	}
+
+	small {
+		font-size: 11px;
+		line-height: 11px;
+    letter-spacing: 0.6px;
+    font-family: inherit;
+    color: $color-logo-small;
+	}
+}
+
+.nav__list {
+	display: flex;
+}
+
