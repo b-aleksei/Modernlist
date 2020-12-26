@@ -54,3 +54,22 @@
   transition-property: background-color, color;
   transition-delay: $delay-card;
 }
+
+.fade-in {
+  animation-name: amin-card;
+  animation-duration: $delay-default;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes amin-card {
+  from {
+    transform: translate3d(0, 50px, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
