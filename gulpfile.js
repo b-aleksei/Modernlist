@@ -71,7 +71,6 @@ const copy = () => {
 };
 
 const build = gulp.series(clean, copy, html, css, js);
-
 const start = gulp.series(build, syncserver);
 
 exports.build = build;
